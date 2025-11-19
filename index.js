@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const app = express()
 const {initializeDatabase} = require('./db/db.connect')
-const fs = require('fs')
 const Book = require('./models/books.models')
 app.use(cors())
 app.use(express.json())
@@ -128,7 +127,6 @@ app.get("/books", async(req, res) => {
 
 
 
-const PORT = 3000
-app.listen(PORT, () => {
-    console.log(`Server is running on the PORT ${PORT}`)
-})
+ module.exports = app;
+
+
