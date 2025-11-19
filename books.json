@@ -1,0 +1,94 @@
+[
+  {
+    "bookAuthor": "J.R.R. Tolkien",
+    "bookName": "The Hobbit",
+    "bookImage": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+    "bookPrice": 499,
+    "bookRating": 9,
+    "bookGenre": ["Fantasy"],
+    "bookDescription": "A timid hobbit is swept into an unexpected adventure with dwarves. Bilbo Baggins journeys far from home, discovering courage he never knew he had. The group seeks to reclaim a stolen treasure guarded by a fierce dragon. Along the way, Bilbo faces trolls, goblins, and giant spiders. He also discovers a mysterious ring with strange powers. The story blends warmth, humor, and danger. Tolkien’s world-building is enchanting and immersive. Themes of bravery and friendship stand strong. A timeless classic for all fantasy lovers. It sets the stage for The Lord of the Rings."
+  },
+  {
+    "bookAuthor": "George Orwell",
+    "bookName": "1984",
+    "bookImage": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+    "bookPrice": 399,
+    "bookRating": 9.5,
+    "bookGenre": ["Fiction", "Science Fiction"],
+    "bookDescription": "A dystopian world ruled by a totalitarian regime shapes this grim tale. Winston Smith struggles silently against oppressive surveillance. Big Brother controls thoughts, language, and even truth itself. The novel explores manipulation on a terrifying scale. Every action is monitored, creating constant fear. Winston’s rebellion sparks hope but brings consequences. Orwell exposes the dangers of unchecked political power. The writing is sharp, haunting, and powerful. A chilling warning for future generations. It remains one of the most influential novels ever written."
+  },
+  {
+    "bookAuthor": "Harper Lee",
+    "bookName": "To Kill a Mockingbird",
+    "bookImage": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+    "bookPrice": 459,
+    "bookRating": 9.2,
+    "bookGenre": ["Fiction"],
+    "bookDescription": "A young girl named Scout narrates this heartfelt story. Set in the racially divided American South, it explores injustice. Scout’s father, Atticus Finch, defends a wrongly accused man. The novel highlights moral courage through simple yet powerful moments. Themes of empathy and equality shine throughout. Scout and Jem learn harsh truths about society. Childhood innocence meets harsh realities of prejudice. Harper Lee’s storytelling remains deeply impactful. It's both emotional and thought-provoking. A moving classic that continues inspiring generations."
+  },
+  {
+    "bookAuthor": "Dan Brown",
+    "bookName": "The Da Vinci Code",
+    "bookImage": "https://covers.openlibrary.org/b/id/240726-L.jpg",
+    "bookPrice": 549,
+    "bookRating": 8.5,
+    "bookGenre": ["Mystery", "Thriller"],
+    "bookDescription": "A murder inside the Louvre sparks an international chase. Symbologist Robert Langdon uncovers hidden messages in famous artworks. Clues lead to ancient secrets connected to religious history. The book blends art, symbolism, and conspiracy. Suspense builds with each twist and revelation. Langdon and Sophie race to uncover the truth. The story challenges long-held beliefs and mysteries. Dan Brown's pacing keeps readers hooked tightly. Danger lurks at every step of their journey. A gripping thriller filled with intellectual puzzles."
+  },
+  {
+    "bookAuthor": "Yuval Noah Harari",
+    "bookName": "Sapiens: A Brief History of Humankind",
+    "bookImage": "https://covers.openlibrary.org/b/id/8379256-L.jpg",
+    "bookPrice": 699,
+    "bookRating": 9,
+    "bookGenre": ["Non-Fiction", "History"],
+    "bookDescription": "Harari explores how humans evolved across thousands of years. The book blends science, history, and anthropology seamlessly. It explains how knowledge shaped cultures and societies. Human cooperation became our greatest survival tool. Harari questions beliefs we take for granted. The narrative challenges political, economic, and social norms. Each chapter offers deep insights about humanity. It shows how stories shaped civilizations. The writing is clear, bold, and intellectually stimulating. A must-read for understanding human progress and future."
+  },
+  {
+    "bookAuthor": "Jane Austen",
+    "bookName": "Pride and Prejudice",
+    "bookImage": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    "bookPrice": 359,
+    "bookRating": 8.8,
+    "bookGenre": ["Romance", "Fiction"],
+    "bookDescription": "Elizabeth Bennet navigates love, family, and societal expectations. Her encounters with Mr. Darcy spark conflict and admiration. The novel explores misunderstandings driven by pride and judgment. Austen blends romance with sharp social commentary. Each character is charming, flawed, and memorable. Themes of marriage, class, and independence dominate the story. Elizabeth learns to see beyond first impressions. Darcy transforms through self-reflection and sincerity. Their evolving relationship remains iconic in literature. A delightful blend of wit, emotion, and elegance."
+  },
+  {
+    "bookAuthor": "Andy Weir",
+    "bookName": "The Martian",
+    "bookImage": "https://covers.openlibrary.org/b/id/8379616-L.jpg",
+    "bookPrice": 499,
+    "bookRating": 8.9,
+    "bookGenre": ["Science Fiction", "Thriller"],
+    "bookDescription": "Astronaut Mark Watney becomes stranded alone on Mars. He uses science and creativity to fight for survival. The story highlights resilience under impossible circumstances. Watney grows food, repairs systems, and sends signals. NASA and his crew race to rescue him. The novel blends humor with intense realism. Every challenge feels life-threatening and urgent. Scientific accuracy makes the journey believable. Hope drives the narrative forward passionately. A thrilling survival story celebrating human ingenuity."
+  },
+  {
+    "bookAuthor": "Walter Isaacson",
+    "bookName": "Steve Jobs",
+    "bookImage": "https://covers.openlibrary.org/b/id/7352164-L.jpg",
+    "bookPrice": 649,
+    "bookRating": 8.7,
+    "bookGenre": ["Biography", "Non-Fiction"],
+    "bookDescription": "This biography reveals the complex life of Steve Jobs. Isaacson captures his genius, passion, and contradictions. It explores the creation of Apple’s biggest innovations. Jobs' perfectionism drove both breakthroughs and conflicts. Interviews with family, colleagues, and rivals add depth. The book covers his creative process intimately. It shows his influence on technology and culture. His failures are described as honestly as his successes. The story is inspiring and surprisingly emotional. A definitive look at one of history’s greatest innovators."
+  },
+  {
+    "bookAuthor": "J.K. Rowling",
+    "bookName": "Harry Potter and the Sorcerer’s Stone",
+    "bookImage": "https://covers.openlibrary.org/b/id/7884866-L.jpg",
+    "bookPrice": 599,
+    "bookRating": 9.3,
+    "bookGenre": ["Fantasy", "Children"],
+    "bookDescription": "Harry discovers he is a wizard on his eleventh birthday. He enters the magical world of Hogwarts School. Friendships with Ron and Hermione shape his journey. Mysteries surround the hidden Sorcerer’s Stone. Harry faces challenges, enemies, and magical creatures. The story blends wonder, danger, and humor effortlessly. Themes of courage, loyalty, and destiny stand strong. Rowling’s world-building feels alive and enchanting. Harry’s confrontation with dark forces begins here. A magical start to an unforgettable fantasy series."
+  },
+  {
+    "bookAuthor": "Stieg Larsson",
+    "bookName": "The Girl with the Dragon Tattoo",
+    "bookImage": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+    "bookPrice": 479,
+    "bookRating": 8.6,
+    "bookGenre": ["Mystery", "Thriller"],
+    "bookDescription": "A journalist investigates a decades-old disappearance case. He partners with Lisbeth Salander, a brilliant hacker. Their search uncovers dark secrets in a wealthy family. The story mixes mystery with psychological depth. Salander’s past adds emotional intensity and intrigue. Each clue reveals shocking and disturbing truths. The pacing is gripping and unpredictable. Larsson’s characters feel raw and powerful. Themes of corruption, trauma, and justice dominate. A dark, suspenseful thriller that stays unforgettable."
+  }
+]
+
+
