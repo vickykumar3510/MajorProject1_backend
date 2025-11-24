@@ -121,14 +121,7 @@ app.get("/books/bookName/:byName", async (req, res) => {
     }
 });
 
-app.use((req, res) => {
-  res.status(404).json({ error: 'Not found' });
-});
 
-if (require.main === module) {
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-}
 
 app.post("/place-order", async (req, res) => {
   try {
@@ -149,5 +142,13 @@ app.get("/orders", async (req, res) => {
   }
 });
 
+app.use((req, res) => {
+  res.status(404).json({ error: 'Not found' });
+});
+
+if (require.main === module) {
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+}
 
 module.exports = app;
