@@ -126,14 +126,18 @@ app.get("/books/bookName/:byName", async (req, res) => {
 
 app.post("/place-order", async (req, res) => {
   try {
-    const newOrder = new Order(req.body);  
+    const newOrder = new Order(req.body);
     await newOrder.save();
-    res.status(201).json({ 
-        message: "Order saved successfully", 
-        order: newOrder 
+
+    res.status(201).json({
+      message: "Order saved successfully",
+      order: newOrder
     });
   } catch (error) {
-    res.status(500).json({ message: "Failed to save order", error });
+    res.status(500).json({
+      message: "Failed to save order",
+      error
+    });
   }
 });
 
