@@ -146,6 +146,16 @@ app.get("/orders", async (req, res) => {
   }
 });
 
+//to reset the order history
+app.delete("/reset-orders", async (req, res) => {
+  try {
+    await Order.deleteMany({});
+    res.json({ message: "All orders deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ error: "Failed to delete orders" });
+  }
+});
+
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' });
 });
