@@ -15,7 +15,7 @@ const orderSchema = new mongoose.Schema({
   customerPhone: String,
   totalPrice: Number,
   totalBooks: Number,
-  orderDateTime: { type: Date, default: Date.now } // stores exact order timestamp
+  orderDateTime: { type: Date, default: Date.now } 
 }, { timestamps: true });
 
 const Order = mongoose.model('order', orderSchema);
