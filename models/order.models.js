@@ -12,7 +12,7 @@ const orderSchema = new mongoose.Schema({
   ],
   customerName: String,
   customerAddress: String,
-  customerPhone: String,
+  customerPhone: Number,
   totalPrice: Number,
   totalBooks: Number,
   orderDateTime: { type: Date, default: Date.now } 
