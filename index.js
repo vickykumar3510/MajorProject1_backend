@@ -143,7 +143,7 @@ app.post("/place-order", async (req, res) => {
 
 app.get("/orders", async (req, res) => {
   try {
-    const orders = await Order.find();   
+    const orders = await Order.find().sort({ orderDateTime: -1 });   
     res.json(orders);                    
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch orders" });
