@@ -156,6 +156,29 @@ app.delete("/reset-orders", async (req, res) => {
   }
 });
 
+//update book by id
+async function updateBook(id, dataToUpdate){
+    try {
+        const updatedBook = await Book.findByIdAndUpdate(id, dataToUpdate, {new: true, runValidators: true})
+        return updatedBook
+    }catch(error){
+        throw error
+    }
+}
+
+app.put('/books/:id', async(req, res) => {
+    try {
+        const book = await updateBook(req.params.id, req.body)
+        if(book){
+            res.status(200).json({message: 'Book has been updated', book: book})
+        } else {
+            res.status(404).json({message: 'Book not found.'})
+        }
+    }catch(error){
+        res.status(500).json({message: 'Unable to update the book', error})
+    }
+})
+
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' });
 });
